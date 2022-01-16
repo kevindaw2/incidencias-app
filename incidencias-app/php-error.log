@@ -1,0 +1,1229 @@
+[14-Jan-2022 23:54:05 UTC] Hello, errors!
+[14-Jan-2022 23:54:05 UTC] SessionController::validateSession()
+[14-Jan-2022 23:54:05 UTC] sessionController::getUserSessionData(): admin
+[14-Jan-2022 23:54:05 UTC] sessionController::validateSession(): username:admin - role: admin
+[14-Jan-2022 23:54:05 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[14-Jan-2022 23:54:05 UTC] sessionController::isPublic(): currentURL => admin
+[14-Jan-2022 23:54:05 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[14-Jan-2022 23:54:05 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[14-Jan-2022 23:54:05 UTC] Admin::RENDER() 
+[14-Jan-2022 23:54:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::getIncidencias() in C:\wamp64\www\incidencias-app\controllers\admin.php:12
+Stack trace:
+#0 C:\wamp64\www\incidencias-app\libs\app.php(58): Admin->render()
+#1 C:\wamp64\www\incidencias-app\index.php(36): App->__construct()
+#2 {main}
+  thrown in C:\wamp64\www\incidencias-app\controllers\admin.php on line 12
+[14-Jan-2022 23:54:06 UTC] Hello, errors!
+[14-Jan-2022 23:54:06 UTC] SessionController::validateSession()
+[14-Jan-2022 23:54:06 UTC] sessionController::getUserSessionData(): admin
+[14-Jan-2022 23:54:06 UTC] sessionController::validateSession(): username:admin - role: admin
+[14-Jan-2022 23:54:06 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[14-Jan-2022 23:54:06 UTC] sessionController::isPublic(): currentURL => admin
+[14-Jan-2022 23:54:06 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[14-Jan-2022 23:54:06 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[14-Jan-2022 23:54:06 UTC] Admin::RENDER() 
+[14-Jan-2022 23:54:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::getIncidencias() in C:\wamp64\www\incidencias-app\controllers\admin.php:12
+Stack trace:
+#0 C:\wamp64\www\incidencias-app\libs\app.php(58): Admin->render()
+#1 C:\wamp64\www\incidencias-app\index.php(36): App->__construct()
+#2 {main}
+  thrown in C:\wamp64\www\incidencias-app\controllers\admin.php on line 12
+[14-Jan-2022 23:54:06 UTC] Hello, errors!
+[14-Jan-2022 23:54:06 UTC] SessionController::validateSession()
+[14-Jan-2022 23:54:06 UTC] sessionController::getUserSessionData(): admin
+[14-Jan-2022 23:54:06 UTC] sessionController::validateSession(): username:admin - role: admin
+[14-Jan-2022 23:54:06 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[14-Jan-2022 23:54:06 UTC] sessionController::isPublic(): currentURL => admin
+[14-Jan-2022 23:54:06 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[14-Jan-2022 23:54:06 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[14-Jan-2022 23:54:06 UTC] Admin::RENDER() 
+[14-Jan-2022 23:54:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::getIncidencias() in C:\wamp64\www\incidencias-app\controllers\admin.php:12
+Stack trace:
+#0 C:\wamp64\www\incidencias-app\libs\app.php(58): Admin->render()
+#1 C:\wamp64\www\incidencias-app\index.php(36): App->__construct()
+#2 {main}
+  thrown in C:\wamp64\www\incidencias-app\controllers\admin.php on line 12
+[14-Jan-2022 23:56:31 UTC] Hello, errors!
+[14-Jan-2022 23:56:31 UTC] SessionController::validateSession()
+[14-Jan-2022 23:56:31 UTC] sessionController::getUserSessionData(): admin
+[14-Jan-2022 23:56:31 UTC] sessionController::validateSession(): username:admin - role: admin
+[14-Jan-2022 23:56:31 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[14-Jan-2022 23:56:31 UTC] sessionController::isPublic(): currentURL => admin
+[14-Jan-2022 23:56:31 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[14-Jan-2022 23:56:31 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[14-Jan-2022 23:56:31 UTC] Admin::RENDER() 
+[14-Jan-2022 23:56:31 UTC] Admin::getIncidencias()
+[14-Jan-2022 23:56:31 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 40
+[14-Jan-2022 23:56:31 UTC] PHP Stack trace:
+[14-Jan-2022 23:56:31 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[14-Jan-2022 23:56:31 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[14-Jan-2022 23:56:31 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[14-Jan-2022 23:56:31 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[14-Jan-2022 23:56:31 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 00:00:08 UTC] Hello, errors!
+[15-Jan-2022 00:00:08 UTC] SessionController::validateSession()
+[15-Jan-2022 00:00:08 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 00:00:08 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 00:00:08 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 00:00:08 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 00:00:08 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 00:00:08 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 00:00:08 UTC] Admin::RENDER() 
+[15-Jan-2022 00:00:08 UTC] Admin::getIncidencias()
+[15-Jan-2022 00:00:08 UTC] PHP Notice:  Undefined variable: incidencais in C:\wamp64\www\incidencias-app\views\admin\index.php on line 40
+[15-Jan-2022 00:00:08 UTC] PHP Stack trace:
+[15-Jan-2022 00:00:08 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 00:00:08 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 00:00:08 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 00:00:08 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 00:00:08 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 00:00:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\wamp64\www\incidencias-app\views\admin\index.php on line 40
+[15-Jan-2022 00:00:08 UTC] PHP Stack trace:
+[15-Jan-2022 00:00:08 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 00:00:08 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 00:00:08 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 00:00:08 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 00:00:08 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 00:00:08 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 72
+[15-Jan-2022 00:00:08 UTC] PHP Stack trace:
+[15-Jan-2022 00:00:08 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 00:00:08 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 00:00:08 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 00:00:08 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 00:00:08 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 00:00:33 UTC] Hello, errors!
+[15-Jan-2022 00:00:33 UTC] SessionController::validateSession()
+[15-Jan-2022 00:00:33 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 00:00:33 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 00:00:33 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 00:00:33 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 00:00:33 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 00:00:33 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 00:00:33 UTC] Admin::RENDER() 
+[15-Jan-2022 00:00:33 UTC] Admin::getIncidencias()
+[15-Jan-2022 00:00:33 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 72
+[15-Jan-2022 00:00:33 UTC] PHP Stack trace:
+[15-Jan-2022 00:00:33 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 00:00:33 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 00:00:33 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 00:00:33 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 00:00:33 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 17:50:42 UTC] Hello, errors!
+[15-Jan-2022 17:50:43 UTC] SessionController::validateSession()
+[15-Jan-2022 17:50:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/, url => 
+[15-Jan-2022 17:50:43 UTC] sessionController::isPublic(): currentURL => 
+[15-Jan-2022 17:50:43 UTC] SessionController::validateSession() public page
+[15-Jan-2022 17:50:44 UTC] Hello, errors!
+[15-Jan-2022 17:50:44 UTC] SessionController::validateSession()
+[15-Jan-2022 17:50:44 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/, url => 
+[15-Jan-2022 17:50:44 UTC] sessionController::isPublic(): currentURL => 
+[15-Jan-2022 17:50:44 UTC] SessionController::validateSession() public page
+[15-Jan-2022 17:50:46 UTC] Hello, errors!
+[15-Jan-2022 17:50:46 UTC] SessionController::validateSession()
+[15-Jan-2022 17:50:46 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/login/authenticate, url => login
+[15-Jan-2022 17:50:46 UTC] sessionController::isPublic(): currentURL => login
+[15-Jan-2022 17:50:46 UTC] SessionController::validateSession() redirect al login
+[15-Jan-2022 17:50:46 UTC] ExistPOST: Existen parámetros
+[15-Jan-2022 17:50:46 UTC] login: inicio
+[15-Jan-2022 17:50:46 UTC] login: user id 9
+[15-Jan-2022 17:50:46 UTC] login: success
+[15-Jan-2022 17:50:46 UTC] Login::authenticate() passed
+[15-Jan-2022 17:50:46 UTC] sessionController::initialize(): user: admin
+[15-Jan-2022 17:50:46 UTC] sessionController::authorizeAccess(): role: admin
+[15-Jan-2022 17:50:46 UTC] Hello, errors!
+[15-Jan-2022 17:50:46 UTC] SessionController::validateSession()
+[15-Jan-2022 17:50:46 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 17:50:46 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 17:50:46 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:50:46 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 17:50:46 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:50:46 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 17:50:46 UTC] Admin::RENDER() 
+[15-Jan-2022 17:50:46 UTC] Admin::getIncidencias()
+[15-Jan-2022 17:50:46 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 72
+[15-Jan-2022 17:50:46 UTC] PHP Stack trace:
+[15-Jan-2022 17:50:46 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 17:50:46 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 17:50:46 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 17:50:46 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 17:50:46 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 17:53:40 UTC] Hello, errors!
+[15-Jan-2022 17:53:40 UTC] SessionController::validateSession()
+[15-Jan-2022 17:53:40 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 17:53:40 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 17:53:40 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:53:40 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 17:53:40 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:53:40 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 17:53:40 UTC] Admin::RENDER() 
+[15-Jan-2022 17:53:40 UTC] Admin::getIncidencias()
+[15-Jan-2022 17:53:40 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 73
+[15-Jan-2022 17:53:40 UTC] PHP Stack trace:
+[15-Jan-2022 17:53:40 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 17:53:40 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 17:53:40 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 17:53:40 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 17:53:40 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 17:54:37 UTC] Hello, errors!
+[15-Jan-2022 17:54:37 UTC] SessionController::validateSession()
+[15-Jan-2022 17:54:37 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 17:54:37 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 17:54:37 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:54:37 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 17:54:37 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:54:37 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 17:54:37 UTC] Admin::RENDER() 
+[15-Jan-2022 17:54:37 UTC] Admin::getIncidencias()
+[15-Jan-2022 17:54:37 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 73
+[15-Jan-2022 17:54:37 UTC] PHP Stack trace:
+[15-Jan-2022 17:54:37 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 17:54:37 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 17:54:37 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 17:54:37 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 17:54:37 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 17:55:12 UTC] Hello, errors!
+[15-Jan-2022 17:55:12 UTC] SessionController::validateSession()
+[15-Jan-2022 17:55:12 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 17:55:12 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 17:55:12 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:55:12 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 17:55:12 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:55:12 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 17:55:12 UTC] Admin::RENDER() 
+[15-Jan-2022 17:55:12 UTC] Admin::getIncidencias()
+[15-Jan-2022 17:55:12 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 73
+[15-Jan-2022 17:55:12 UTC] PHP Stack trace:
+[15-Jan-2022 17:55:12 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 17:55:12 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 17:55:12 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 17:55:12 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 17:55:12 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 17:58:08 UTC] Hello, errors!
+[15-Jan-2022 17:58:08 UTC] SessionController::validateSession()
+[15-Jan-2022 17:58:08 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 17:58:08 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 17:58:08 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:58:08 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 17:58:08 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:58:08 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 17:58:08 UTC] Admin::RENDER() 
+[15-Jan-2022 17:58:08 UTC] Admin::getIncidencias()
+[15-Jan-2022 17:58:08 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 73
+[15-Jan-2022 17:58:08 UTC] PHP Stack trace:
+[15-Jan-2022 17:58:08 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 17:58:08 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 17:58:08 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 17:58:08 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 17:58:08 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 17:58:32 UTC] Hello, errors!
+[15-Jan-2022 17:58:32 UTC] SessionController::validateSession()
+[15-Jan-2022 17:58:32 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 17:58:32 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 17:58:32 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:58:32 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 17:58:32 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:58:32 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 17:58:32 UTC] Admin::RENDER() 
+[15-Jan-2022 17:58:32 UTC] Admin::getIncidencias()
+[15-Jan-2022 17:58:32 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 73
+[15-Jan-2022 17:58:32 UTC] PHP Stack trace:
+[15-Jan-2022 17:58:32 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 17:58:32 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 17:58:32 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 17:58:32 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 17:58:32 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 17:58:39 UTC] Hello, errors!
+[15-Jan-2022 17:58:39 UTC] SessionController::validateSession()
+[15-Jan-2022 17:58:39 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 17:58:39 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 17:58:39 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:58:39 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 17:58:39 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 17:58:39 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 17:58:39 UTC] Admin::RENDER() 
+[15-Jan-2022 17:58:39 UTC] Admin::getIncidencias()
+[15-Jan-2022 17:58:39 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 73
+[15-Jan-2022 17:58:39 UTC] PHP Stack trace:
+[15-Jan-2022 17:58:39 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 17:58:39 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 17:58:39 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 17:58:39 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 17:58:39 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:02:36 UTC] Hello, errors!
+[15-Jan-2022 18:02:36 UTC] SessionController::validateSession()
+[15-Jan-2022 18:02:36 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:02:36 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:02:36 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:02:36 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:02:36 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:02:36 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:02:36 UTC] Admin::RENDER() 
+[15-Jan-2022 18:02:36 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:02:36 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:02:36 UTC] PHP Stack trace:
+[15-Jan-2022 18:02:36 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:02:36 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:02:36 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:02:36 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:02:36 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:06:43 UTC] Hello, errors!
+[15-Jan-2022 18:06:43 UTC] SessionController::validateSession()
+[15-Jan-2022 18:06:43 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:06:43 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:06:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:06:43 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:06:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:06:43 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:06:43 UTC] Admin::RENDER() 
+[15-Jan-2022 18:06:43 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:06:43 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:06:43 UTC] PHP Stack trace:
+[15-Jan-2022 18:06:43 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:06:43 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:06:43 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:06:43 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:06:43 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:06:43 UTC] Hello, errors!
+[15-Jan-2022 18:06:43 UTC] SessionController::validateSession()
+[15-Jan-2022 18:06:43 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:06:43 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:06:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:06:43 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:06:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:06:43 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:06:43 UTC] Admin::RENDER() 
+[15-Jan-2022 18:06:43 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:06:43 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:06:43 UTC] PHP Stack trace:
+[15-Jan-2022 18:06:43 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:06:43 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:06:43 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:06:43 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:06:43 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:06:44 UTC] Hello, errors!
+[15-Jan-2022 18:06:44 UTC] SessionController::validateSession()
+[15-Jan-2022 18:06:44 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:06:44 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:06:44 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:06:44 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:06:44 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:06:44 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:06:44 UTC] Admin::RENDER() 
+[15-Jan-2022 18:06:44 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:06:44 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:06:44 UTC] PHP Stack trace:
+[15-Jan-2022 18:06:44 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:06:44 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:06:44 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:06:44 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:06:44 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:06:44 UTC] Hello, errors!
+[15-Jan-2022 18:06:44 UTC] SessionController::validateSession()
+[15-Jan-2022 18:06:44 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:06:44 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:06:44 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:06:44 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:06:44 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:06:44 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:06:44 UTC] Admin::RENDER() 
+[15-Jan-2022 18:06:44 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:06:44 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:06:44 UTC] PHP Stack trace:
+[15-Jan-2022 18:06:44 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:06:44 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:06:44 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:06:44 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:06:44 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:08:20 UTC] Hello, errors!
+[15-Jan-2022 18:08:20 UTC] SessionController::validateSession()
+[15-Jan-2022 18:08:20 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:08:20 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:08:20 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:20 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:08:20 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:20 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:08:20 UTC] Admin::RENDER() 
+[15-Jan-2022 18:08:20 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:08:20 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:08:20 UTC] PHP Stack trace:
+[15-Jan-2022 18:08:20 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:08:20 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:08:20 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:08:20 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:08:20 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:08:41 UTC] Hello, errors!
+[15-Jan-2022 18:08:41 UTC] SessionController::validateSession()
+[15-Jan-2022 18:08:41 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:08:41 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:08:41 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:41 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:08:41 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:41 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:08:41 UTC] Admin::RENDER() 
+[15-Jan-2022 18:08:41 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:08:41 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:08:41 UTC] PHP Stack trace:
+[15-Jan-2022 18:08:41 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:08:41 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:08:41 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:08:41 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:08:41 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:08:42 UTC] Hello, errors!
+[15-Jan-2022 18:08:42 UTC] SessionController::validateSession()
+[15-Jan-2022 18:08:42 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:08:42 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:08:42 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:42 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:08:42 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:42 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:08:42 UTC] Admin::RENDER() 
+[15-Jan-2022 18:08:42 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:08:42 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:08:42 UTC] PHP Stack trace:
+[15-Jan-2022 18:08:42 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:08:42 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:08:42 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:08:42 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:08:42 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:08:47 UTC] Hello, errors!
+[15-Jan-2022 18:08:47 UTC] SessionController::validateSession()
+[15-Jan-2022 18:08:47 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:08:47 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:08:47 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:47 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:08:47 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:47 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:08:47 UTC] Admin::RENDER() 
+[15-Jan-2022 18:08:47 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:08:47 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:08:47 UTC] PHP Stack trace:
+[15-Jan-2022 18:08:47 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:08:47 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:08:47 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:08:47 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:08:47 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:08:48 UTC] Hello, errors!
+[15-Jan-2022 18:08:48 UTC] SessionController::validateSession()
+[15-Jan-2022 18:08:48 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:08:48 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:08:48 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:48 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:08:48 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:08:48 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:08:48 UTC] Admin::RENDER() 
+[15-Jan-2022 18:08:48 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:08:48 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:08:48 UTC] PHP Stack trace:
+[15-Jan-2022 18:08:48 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:08:48 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:08:48 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:08:48 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:08:48 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:10:37 UTC] Hello, errors!
+[15-Jan-2022 18:10:37 UTC] SessionController::validateSession()
+[15-Jan-2022 18:10:37 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:10:37 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:10:37 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:10:37 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:10:37 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:10:37 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:10:37 UTC] Admin::RENDER() 
+[15-Jan-2022 18:10:37 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:10:37 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 75
+[15-Jan-2022 18:10:37 UTC] PHP Stack trace:
+[15-Jan-2022 18:10:37 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:10:37 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:10:37 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:10:37 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:10:37 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:11:23 UTC] Hello, errors!
+[15-Jan-2022 18:11:23 UTC] SessionController::validateSession()
+[15-Jan-2022 18:11:23 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:11:23 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:11:23 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:11:23 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:11:23 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:11:23 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:11:23 UTC] Admin::RENDER() 
+[15-Jan-2022 18:11:23 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:11:23 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 71
+[15-Jan-2022 18:11:23 UTC] PHP Stack trace:
+[15-Jan-2022 18:11:23 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:11:23 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:11:23 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:11:23 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:11:23 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:13:40 UTC] Hello, errors!
+[15-Jan-2022 18:13:40 UTC] SessionController::validateSession()
+[15-Jan-2022 18:13:40 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:13:40 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:13:40 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:13:40 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:13:40 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:13:40 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:13:40 UTC] Admin::RENDER() 
+[15-Jan-2022 18:13:40 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:13:40 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\incidencias-app\views\admin\index.php on line 80
+[15-Jan-2022 18:13:41 UTC] Hello, errors!
+[15-Jan-2022 18:13:41 UTC] SessionController::validateSession()
+[15-Jan-2022 18:13:41 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:13:41 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:13:41 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:13:41 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:13:41 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:13:41 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:13:41 UTC] Admin::RENDER() 
+[15-Jan-2022 18:13:41 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:13:41 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\incidencias-app\views\admin\index.php on line 80
+[15-Jan-2022 18:13:42 UTC] Hello, errors!
+[15-Jan-2022 18:13:42 UTC] SessionController::validateSession()
+[15-Jan-2022 18:13:42 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:13:42 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:13:42 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:13:42 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:13:42 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:13:42 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:13:42 UTC] Admin::RENDER() 
+[15-Jan-2022 18:13:42 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:13:42 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp64\www\incidencias-app\views\admin\index.php on line 80
+[15-Jan-2022 18:14:06 UTC] Hello, errors!
+[15-Jan-2022 18:14:06 UTC] SessionController::validateSession()
+[15-Jan-2022 18:14:06 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:14:06 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:14:06 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:14:06 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:14:06 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:14:06 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:14:06 UTC] Admin::RENDER() 
+[15-Jan-2022 18:14:06 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:14:06 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\wamp64\www\incidencias-app\views\admin\index.php on line 30
+[15-Jan-2022 18:14:07 UTC] Hello, errors!
+[15-Jan-2022 18:14:07 UTC] SessionController::validateSession()
+[15-Jan-2022 18:14:07 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:14:07 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:14:07 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:14:07 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:14:07 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:14:07 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:14:07 UTC] Admin::RENDER() 
+[15-Jan-2022 18:14:07 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:14:07 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\wamp64\www\incidencias-app\views\admin\index.php on line 30
+[15-Jan-2022 18:16:11 UTC] Hello, errors!
+[15-Jan-2022 18:16:11 UTC] SessionController::validateSession()
+[15-Jan-2022 18:16:11 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:16:11 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:16:11 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:16:11 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:16:11 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:16:11 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:16:11 UTC] Admin::RENDER() 
+[15-Jan-2022 18:16:11 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:16:11 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 71
+[15-Jan-2022 18:16:11 UTC] PHP Stack trace:
+[15-Jan-2022 18:16:11 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:16:11 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:16:11 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:16:11 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:16:11 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:16:43 UTC] Hello, errors!
+[15-Jan-2022 18:16:43 UTC] SessionController::validateSession()
+[15-Jan-2022 18:16:43 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:16:43 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:16:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:16:43 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:16:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:16:43 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:16:43 UTC] Admin::RENDER() 
+[15-Jan-2022 18:16:43 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:16:43 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 71
+[15-Jan-2022 18:16:43 UTC] PHP Stack trace:
+[15-Jan-2022 18:16:43 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:16:43 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:16:43 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:16:43 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:16:43 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:16:43 UTC] Hello, errors!
+[15-Jan-2022 18:16:43 UTC] SessionController::validateSession()
+[15-Jan-2022 18:16:43 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:16:43 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:16:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:16:43 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:16:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:16:43 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:16:43 UTC] Admin::RENDER() 
+[15-Jan-2022 18:16:43 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:16:43 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 71
+[15-Jan-2022 18:16:43 UTC] PHP Stack trace:
+[15-Jan-2022 18:16:43 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:16:43 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:16:43 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:16:43 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:16:43 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:16:43 UTC] Hello, errors!
+[15-Jan-2022 18:16:43 UTC] SessionController::validateSession()
+[15-Jan-2022 18:16:43 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:16:43 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:16:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:16:43 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:16:43 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:16:43 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:16:43 UTC] Admin::RENDER() 
+[15-Jan-2022 18:16:43 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:16:43 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 71
+[15-Jan-2022 18:16:43 UTC] PHP Stack trace:
+[15-Jan-2022 18:16:43 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:16:43 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:16:43 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:16:43 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:16:43 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:17:45 UTC] Hello, errors!
+[15-Jan-2022 18:17:45 UTC] SessionController::validateSession()
+[15-Jan-2022 18:17:45 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:17:45 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:17:45 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:17:45 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:17:45 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:17:45 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:17:45 UTC] Admin::RENDER() 
+[15-Jan-2022 18:17:45 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:17:45 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 71
+[15-Jan-2022 18:17:45 UTC] PHP Stack trace:
+[15-Jan-2022 18:17:45 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:17:45 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:17:45 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:17:45 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:17:45 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:20:05 UTC] Hello, errors!
+[15-Jan-2022 18:20:05 UTC] SessionController::validateSession()
+[15-Jan-2022 18:20:05 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:20:05 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:20:05 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:20:05 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:20:05 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:20:05 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:20:05 UTC] Admin::RENDER() 
+[15-Jan-2022 18:20:05 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:20:05 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 72
+[15-Jan-2022 18:20:05 UTC] PHP Stack trace:
+[15-Jan-2022 18:20:05 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:20:05 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:20:05 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:20:05 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:20:05 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:20:31 UTC] Hello, errors!
+[15-Jan-2022 18:20:31 UTC] SessionController::validateSession()
+[15-Jan-2022 18:20:31 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:20:31 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:20:31 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:20:31 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:20:31 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:20:31 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:20:31 UTC] Admin::RENDER() 
+[15-Jan-2022 18:20:31 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:20:31 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 71
+[15-Jan-2022 18:20:31 UTC] PHP Stack trace:
+[15-Jan-2022 18:20:31 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:20:31 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:20:31 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:20:31 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:20:31 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:21:03 UTC] Hello, errors!
+[15-Jan-2022 18:21:03 UTC] SessionController::validateSession()
+[15-Jan-2022 18:21:03 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:21:03 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:21:03 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:21:03 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:21:03 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:21:03 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:21:03 UTC] Admin::RENDER() 
+[15-Jan-2022 18:21:03 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:21:03 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 73
+[15-Jan-2022 18:21:03 UTC] PHP Stack trace:
+[15-Jan-2022 18:21:03 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:21:03 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:21:03 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:21:03 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:21:03 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:21:37 UTC] Hello, errors!
+[15-Jan-2022 18:21:37 UTC] SessionController::validateSession()
+[15-Jan-2022 18:21:37 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:21:37 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:21:37 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:21:37 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:21:37 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:21:37 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:21:37 UTC] Admin::RENDER() 
+[15-Jan-2022 18:21:37 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:21:38 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 70
+[15-Jan-2022 18:21:38 UTC] PHP Stack trace:
+[15-Jan-2022 18:21:38 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:21:38 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:21:38 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:21:38 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:21:38 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:24:13 UTC] Hello, errors!
+[15-Jan-2022 18:24:13 UTC] SessionController::validateSession()
+[15-Jan-2022 18:24:13 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:24:13 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:24:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:24:13 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:24:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:24:13 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:24:13 UTC] Admin::RENDER() 
+[15-Jan-2022 18:24:13 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:24:13 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 71
+[15-Jan-2022 18:24:13 UTC] PHP Stack trace:
+[15-Jan-2022 18:24:13 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:24:13 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:24:13 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:24:13 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:24:13 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:24:46 UTC] Hello, errors!
+[15-Jan-2022 18:24:46 UTC] SessionController::validateSession()
+[15-Jan-2022 18:24:46 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:24:46 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:24:46 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:24:46 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:24:46 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:24:46 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:24:46 UTC] Admin::RENDER() 
+[15-Jan-2022 18:24:46 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:24:46 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 72
+[15-Jan-2022 18:24:46 UTC] PHP Stack trace:
+[15-Jan-2022 18:24:46 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:24:46 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:24:46 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:24:46 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:24:46 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:25:06 UTC] Hello, errors!
+[15-Jan-2022 18:25:06 UTC] SessionController::validateSession()
+[15-Jan-2022 18:25:06 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:25:06 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:25:06 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:25:06 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:25:06 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:25:06 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:25:06 UTC] Admin::RENDER() 
+[15-Jan-2022 18:25:06 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:25:06 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 67
+[15-Jan-2022 18:25:06 UTC] PHP Stack trace:
+[15-Jan-2022 18:25:06 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:25:06 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:25:06 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:25:06 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:25:06 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:27:17 UTC] Hello, errors!
+[15-Jan-2022 18:27:17 UTC] SessionController::validateSession()
+[15-Jan-2022 18:27:17 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:27:17 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:27:17 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:27:17 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:27:17 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:27:17 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:27:17 UTC] Admin::RENDER() 
+[15-Jan-2022 18:27:17 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:27:17 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 74
+[15-Jan-2022 18:27:17 UTC] PHP Stack trace:
+[15-Jan-2022 18:27:17 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:27:17 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:27:17 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:27:17 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:27:17 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:28:21 UTC] Hello, errors!
+[15-Jan-2022 18:28:21 UTC] SessionController::validateSession()
+[15-Jan-2022 18:28:21 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:28:21 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:28:21 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:28:21 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:28:21 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:28:21 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:28:21 UTC] Admin::RENDER() 
+[15-Jan-2022 18:28:21 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:28:21 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\incidencias-app\views\admin\index.php on line 79
+[15-Jan-2022 18:28:21 UTC] PHP Stack trace:
+[15-Jan-2022 18:28:21 UTC] PHP   1. {main}() C:\wamp64\www\incidencias-app\index.php:0
+[15-Jan-2022 18:28:21 UTC] PHP   2. App->__construct() C:\wamp64\www\incidencias-app\index.php:36
+[15-Jan-2022 18:28:21 UTC] PHP   3. Admin->render() C:\wamp64\www\incidencias-app\libs\app.php:58
+[15-Jan-2022 18:28:21 UTC] PHP   4. View->render($nombre = 'admin/index', $data = ['stats' => ['count-users' => 3, 'count-expenses' => 4, 'all-incidencias' => [...]], 'incidencias' => [0 => class IncidenciasModel { ... }, 1 => class IncidenciasModel { ... }, 2 => class IncidenciasModel { ... }, 3 => class IncidenciasModel { ... }]]) C:\wamp64\www\incidencias-app\controllers\admin.php:16
+[15-Jan-2022 18:28:21 UTC] PHP   5. require() C:\wamp64\www\incidencias-app\libs\view.php:14
+[15-Jan-2022 18:28:39 UTC] Hello, errors!
+[15-Jan-2022 18:28:39 UTC] SessionController::validateSession()
+[15-Jan-2022 18:28:39 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:28:39 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:28:39 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:28:39 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:28:39 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:28:39 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:28:39 UTC] Admin::RENDER() 
+[15-Jan-2022 18:28:39 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:29:14 UTC] Hello, errors!
+[15-Jan-2022 18:29:15 UTC] SessionController::validateSession()
+[15-Jan-2022 18:29:15 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:29:15 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:29:15 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:29:15 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:29:15 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:29:15 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:29:15 UTC] Admin::RENDER() 
+[15-Jan-2022 18:29:15 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:29:42 UTC] Hello, errors!
+[15-Jan-2022 18:29:42 UTC] SessionController::validateSession()
+[15-Jan-2022 18:29:42 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:29:42 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:29:42 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:29:42 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:29:42 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:29:42 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:29:42 UTC] Admin::RENDER() 
+[15-Jan-2022 18:29:42 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:30:17 UTC] Hello, errors!
+[15-Jan-2022 18:30:17 UTC] SessionController::validateSession()
+[15-Jan-2022 18:30:17 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:30:17 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:30:17 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:30:17 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:30:17 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:30:17 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:30:17 UTC] Admin::RENDER() 
+[15-Jan-2022 18:30:17 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:30:50 UTC] Hello, errors!
+[15-Jan-2022 18:30:50 UTC] SessionController::validateSession()
+[15-Jan-2022 18:30:50 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:30:50 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:30:50 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:30:50 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:30:50 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:30:50 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:30:50 UTC] Admin::RENDER() 
+[15-Jan-2022 18:30:50 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:31:52 UTC] Hello, errors!
+[15-Jan-2022 18:31:52 UTC] SessionController::validateSession()
+[15-Jan-2022 18:31:52 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:31:52 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:31:52 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:31:52 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:31:52 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:31:52 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:31:52 UTC] Admin::RENDER() 
+[15-Jan-2022 18:31:52 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:32:33 UTC] Hello, errors!
+[15-Jan-2022 18:32:33 UTC] SessionController::validateSession()
+[15-Jan-2022 18:32:33 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:32:33 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:32:33 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:32:33 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:32:33 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:32:33 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:32:33 UTC] Admin::RENDER() 
+[15-Jan-2022 18:32:34 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:34:22 UTC] Hello, errors!
+[15-Jan-2022 18:34:22 UTC] SessionController::validateSession()
+[15-Jan-2022 18:34:22 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:34:22 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:34:22 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:22 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:34:22 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:22 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:34:22 UTC] Admin::RENDER() 
+[15-Jan-2022 18:34:22 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:34:25 UTC] Hello, errors!
+[15-Jan-2022 18:34:25 UTC] SessionController::validateSession()
+[15-Jan-2022 18:34:25 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:34:25 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:34:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:25 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:34:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:25 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:34:25 UTC] Admin::RENDER() 
+[15-Jan-2022 18:34:25 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:34:25 UTC] Hello, errors!
+[15-Jan-2022 18:34:25 UTC] SessionController::validateSession()
+[15-Jan-2022 18:34:25 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:34:25 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:34:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:25 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:34:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:25 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:34:25 UTC] Admin::RENDER() 
+[15-Jan-2022 18:34:25 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:34:25 UTC] Hello, errors!
+[15-Jan-2022 18:34:25 UTC] SessionController::validateSession()
+[15-Jan-2022 18:34:25 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:34:25 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:34:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:25 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:34:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:25 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:34:25 UTC] Admin::RENDER() 
+[15-Jan-2022 18:34:25 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:34:26 UTC] Hello, errors!
+[15-Jan-2022 18:34:26 UTC] SessionController::validateSession()
+[15-Jan-2022 18:34:26 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:34:26 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:34:26 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:26 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:34:26 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:34:26 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:34:26 UTC] Admin::RENDER() 
+[15-Jan-2022 18:34:26 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:37:25 UTC] Hello, errors!
+[15-Jan-2022 18:37:25 UTC] SessionController::validateSession()
+[15-Jan-2022 18:37:25 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:37:25 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:37:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:37:25 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:37:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:37:25 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:37:25 UTC] Admin::RENDER() 
+[15-Jan-2022 18:37:25 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:38:04 UTC] Hello, errors!
+[15-Jan-2022 18:38:04 UTC] SessionController::validateSession()
+[15-Jan-2022 18:38:04 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:38:04 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:38:04 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:38:04 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:38:04 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:38:04 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:38:04 UTC] Admin::RENDER() 
+[15-Jan-2022 18:38:04 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:39:11 UTC] Hello, errors!
+[15-Jan-2022 18:39:11 UTC] SessionController::validateSession()
+[15-Jan-2022 18:39:11 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:39:11 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:39:11 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:39:11 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:39:11 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:39:11 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:39:11 UTC] Admin::RENDER() 
+[15-Jan-2022 18:39:11 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:39:12 UTC] Hello, errors!
+[15-Jan-2022 18:39:12 UTC] SessionController::validateSession()
+[15-Jan-2022 18:39:12 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:39:12 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:39:12 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:39:12 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:39:12 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:39:12 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:39:12 UTC] Admin::RENDER() 
+[15-Jan-2022 18:39:12 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:39:13 UTC] Hello, errors!
+[15-Jan-2022 18:39:13 UTC] SessionController::validateSession()
+[15-Jan-2022 18:39:13 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:39:13 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:39:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:39:13 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:39:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:39:13 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:39:13 UTC] Admin::RENDER() 
+[15-Jan-2022 18:39:14 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:42:03 UTC] Hello, errors!
+[15-Jan-2022 18:42:03 UTC] SessionController::validateSession()
+[15-Jan-2022 18:42:03 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:42:03 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:42:03 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:42:03 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:42:03 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:42:03 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:42:03 UTC] Admin::RENDER() 
+[15-Jan-2022 18:42:03 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:42:28 UTC] Hello, errors!
+[15-Jan-2022 18:42:28 UTC] SessionController::validateSession()
+[15-Jan-2022 18:42:28 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:42:28 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:42:28 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:42:28 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:42:28 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:42:28 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:42:28 UTC] Admin::RENDER() 
+[15-Jan-2022 18:42:28 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:43:12 UTC] Hello, errors!
+[15-Jan-2022 18:43:12 UTC] SessionController::validateSession()
+[15-Jan-2022 18:43:12 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:43:12 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:43:12 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:12 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:43:12 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:12 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:43:12 UTC] Admin::RENDER() 
+[15-Jan-2022 18:43:12 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:43:13 UTC] Hello, errors!
+[15-Jan-2022 18:43:13 UTC] SessionController::validateSession()
+[15-Jan-2022 18:43:13 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:43:13 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:43:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:13 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:43:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:13 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:43:13 UTC] Admin::RENDER() 
+[15-Jan-2022 18:43:13 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:43:13 UTC] Hello, errors!
+[15-Jan-2022 18:43:13 UTC] SessionController::validateSession()
+[15-Jan-2022 18:43:13 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:43:13 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:43:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:13 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:43:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:13 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:43:13 UTC] Admin::RENDER() 
+[15-Jan-2022 18:43:13 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:43:13 UTC] Hello, errors!
+[15-Jan-2022 18:43:13 UTC] SessionController::validateSession()
+[15-Jan-2022 18:43:13 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:43:13 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:43:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:13 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:43:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:13 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:43:13 UTC] Admin::RENDER() 
+[15-Jan-2022 18:43:13 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:43:14 UTC] Hello, errors!
+[15-Jan-2022 18:43:14 UTC] SessionController::validateSession()
+[15-Jan-2022 18:43:14 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:43:14 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:43:14 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:14 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:43:14 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:14 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:43:14 UTC] Admin::RENDER() 
+[15-Jan-2022 18:43:14 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:43:14 UTC] Hello, errors!
+[15-Jan-2022 18:43:14 UTC] SessionController::validateSession()
+[15-Jan-2022 18:43:14 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:43:14 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:43:14 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:14 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:43:14 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:43:14 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:43:14 UTC] Admin::RENDER() 
+[15-Jan-2022 18:43:14 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:44:25 UTC] Hello, errors!
+[15-Jan-2022 18:44:25 UTC] SessionController::validateSession()
+[15-Jan-2022 18:44:25 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:44:25 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:44:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:44:25 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:44:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:44:25 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:44:25 UTC] Admin::RENDER() 
+[15-Jan-2022 18:44:25 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:45:29 UTC] Hello, errors!
+[15-Jan-2022 18:45:29 UTC] SessionController::validateSession()
+[15-Jan-2022 18:45:29 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:45:29 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:45:29 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:45:29 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:45:29 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:45:29 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:45:29 UTC] Admin::RENDER() 
+[15-Jan-2022 18:45:29 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:46:20 UTC] Hello, errors!
+[15-Jan-2022 18:46:20 UTC] SessionController::validateSession()
+[15-Jan-2022 18:46:20 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:46:20 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:46:20 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:46:20 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:46:20 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:46:20 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:46:20 UTC] Admin::RENDER() 
+[15-Jan-2022 18:46:20 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:50:19 UTC] Hello, errors!
+[15-Jan-2022 18:50:19 UTC] SessionController::validateSession()
+[15-Jan-2022 18:50:19 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:50:19 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:50:19 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin/createCategory, url => admin
+[15-Jan-2022 18:50:19 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:50:19 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin/createCategory, url => admin
+[15-Jan-2022 18:50:19 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:50:59 UTC] Hello, errors!
+[15-Jan-2022 18:50:59 UTC] SessionController::validateSession()
+[15-Jan-2022 18:50:59 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:50:59 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:50:59 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:50:59 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:50:59 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:50:59 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:50:59 UTC] Admin::RENDER() 
+[15-Jan-2022 18:50:59 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:51:13 UTC] Hello, errors!
+[15-Jan-2022 18:51:13 UTC] SessionController::validateSession()
+[15-Jan-2022 18:51:13 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:51:13 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:51:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/, url => 
+[15-Jan-2022 18:51:13 UTC] sessionController::isPublic(): currentURL => 
+[15-Jan-2022 18:51:13 UTC] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[15-Jan-2022 18:51:13 UTC] Hello, errors!
+[15-Jan-2022 18:51:13 UTC] SessionController::validateSession()
+[15-Jan-2022 18:51:13 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:51:13 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:51:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:51:13 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:51:13 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:51:13 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:51:13 UTC] Admin::RENDER() 
+[15-Jan-2022 18:51:13 UTC] Admin::getIncidencias()
+[15-Jan-2022 18:51:46 UTC] Hello, errors!
+[15-Jan-2022 18:51:46 UTC] SessionController::validateSession()
+[15-Jan-2022 18:51:46 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/, url => 
+[15-Jan-2022 18:51:46 UTC] sessionController::isPublic(): currentURL => 
+[15-Jan-2022 18:51:46 UTC] SessionController::validateSession() public page
+[15-Jan-2022 18:51:48 UTC] Hello, errors!
+[15-Jan-2022 18:51:48 UTC] SessionController::validateSession()
+[15-Jan-2022 18:51:48 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/login/authenticate, url => login
+[15-Jan-2022 18:51:48 UTC] sessionController::isPublic(): currentURL => login
+[15-Jan-2022 18:51:48 UTC] SessionController::validateSession() redirect al login
+[15-Jan-2022 18:51:48 UTC] ExistPOST: Existen parámetros
+[15-Jan-2022 18:51:48 UTC] login: inicio
+[15-Jan-2022 18:51:48 UTC] login: user id 9
+[15-Jan-2022 18:51:48 UTC] login: success
+[15-Jan-2022 18:51:48 UTC] Login::authenticate() passed
+[15-Jan-2022 18:51:48 UTC] sessionController::initialize(): user: admin
+[15-Jan-2022 18:51:48 UTC] sessionController::authorizeAccess(): role: admin
+[15-Jan-2022 18:51:48 UTC] Hello, errors!
+[15-Jan-2022 18:51:48 UTC] SessionController::validateSession()
+[15-Jan-2022 18:51:48 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 18:51:48 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 18:51:48 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:51:48 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 18:51:48 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 18:51:48 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 18:51:48 UTC] Admin::RENDER() 
+[15-Jan-2022 18:51:48 UTC] Admin::getIncidencias()
+[15-Jan-2022 19:06:59 UTC] Hello, errors!
+[15-Jan-2022 19:06:59 UTC] SessionController::validateSession()
+[15-Jan-2022 19:06:59 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 19:06:59 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 19:06:59 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/logout, url => logout
+[15-Jan-2022 19:06:59 UTC] sessionController::isPublic(): currentURL => logout
+[15-Jan-2022 19:06:59 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/logout, url => logout
+[15-Jan-2022 19:06:59 UTC] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[15-Jan-2022 19:06:59 UTC] Hello, errors!
+[15-Jan-2022 19:06:59 UTC] SessionController::validateSession()
+[15-Jan-2022 19:06:59 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/, url => 
+[15-Jan-2022 19:06:59 UTC] sessionController::isPublic(): currentURL => 
+[15-Jan-2022 19:06:59 UTC] SessionController::validateSession() public page
+[15-Jan-2022 19:07:49 UTC] Hello, errors!
+[15-Jan-2022 19:07:49 UTC] SessionController::validateSession()
+[15-Jan-2022 19:07:49 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/login/authenticate, url => login
+[15-Jan-2022 19:07:49 UTC] sessionController::isPublic(): currentURL => login
+[15-Jan-2022 19:07:49 UTC] SessionController::validateSession() redirect al login
+[15-Jan-2022 19:07:49 UTC] ExistPOST: Existen parámetros
+[15-Jan-2022 19:07:49 UTC] login: inicio
+[15-Jan-2022 19:07:49 UTC] login: user id 1
+[15-Jan-2022 19:07:49 UTC] Login::authenticate() username and/or password wrong
+[15-Jan-2022 19:07:49 UTC] Hello, errors!
+[15-Jan-2022 19:07:49 UTC] SessionController::validateSession()
+[15-Jan-2022 19:07:49 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/?error=bcbe63ed8464684af6945ad8a89f76f8, url => ?error=bcbe63ed8464684af6945ad8a89f76f8
+[15-Jan-2022 19:07:49 UTC] sessionController::isPublic(): currentURL => ?error=bcbe63ed8464684af6945ad8a89f76f8
+[15-Jan-2022 19:07:49 UTC] SessionController::validateSession() public page
+[15-Jan-2022 19:07:49 UTC] View::handleError() existsKey =>Nombre de usuario y/o password incorrectos
+[15-Jan-2022 19:07:53 UTC] Hello, errors!
+[15-Jan-2022 19:07:53 UTC] SessionController::validateSession()
+[15-Jan-2022 19:07:53 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/login/authenticate, url => login
+[15-Jan-2022 19:07:53 UTC] sessionController::isPublic(): currentURL => login
+[15-Jan-2022 19:07:53 UTC] SessionController::validateSession() redirect al login
+[15-Jan-2022 19:07:53 UTC] ExistPOST: Existen parámetros
+[15-Jan-2022 19:07:53 UTC] login: inicio
+[15-Jan-2022 19:07:53 UTC] login: user id 8
+[15-Jan-2022 19:07:53 UTC] login: success
+[15-Jan-2022 19:07:53 UTC] Login::authenticate() passed
+[15-Jan-2022 19:07:53 UTC] sessionController::initialize(): user: kev
+[15-Jan-2022 19:07:53 UTC] sessionController::authorizeAccess(): role: user
+[15-Jan-2022 19:07:53 UTC] Hello, errors!
+[15-Jan-2022 19:07:54 UTC] SessionController::validateSession()
+[15-Jan-2022 19:07:54 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:07:54 UTC] sessionController::validateSession(): username:kev - role: user
+[15-Jan-2022 19:07:54 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/dashboard, url => dashboard
+[15-Jan-2022 19:07:54 UTC] sessionController::isPublic(): currentURL => dashboard
+[15-Jan-2022 19:07:54 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/dashboard, url => dashboard
+[15-Jan-2022 19:07:54 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 19:07:54 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:07:54 UTC] Dashboard::constructor()
+[15-Jan-2022 19:07:54 UTC] Dashboard::RENDER() 
+[15-Jan-2022 19:07:54 UTC] Dashboard::getExpenses() id = 8
+[15-Jan-2022 19:07:54 UTC] IncidenciasModel::getByUserIdAndLimit(): count: 4
+[15-Jan-2022 19:07:54 UTC] Hello, errors!
+[15-Jan-2022 19:07:54 UTC] SessionController::validateSession()
+[15-Jan-2022 19:07:54 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:07:54 UTC] sessionController::validateSession(): username:kev - role: user
+[15-Jan-2022 19:07:54 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/expenses/getExpensesJSON, url => expenses
+[15-Jan-2022 19:07:54 UTC] sessionController::isPublic(): currentURL => expenses
+[15-Jan-2022 19:07:54 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/expenses/getExpensesJSON, url => expenses
+[15-Jan-2022 19:07:54 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 19:07:54 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:07:54 UTC] Expenses::constructor() 
+[15-Jan-2022 19:08:14 UTC] Hello, errors!
+[15-Jan-2022 19:08:14 UTC] SessionController::validateSession()
+[15-Jan-2022 19:08:14 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:08:14 UTC] sessionController::validateSession(): username:kev - role: user
+[15-Jan-2022 19:08:14 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/expenses/create, url => expenses
+[15-Jan-2022 19:08:14 UTC] sessionController::isPublic(): currentURL => expenses
+[15-Jan-2022 19:08:14 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/expenses/create, url => expenses
+[15-Jan-2022 19:08:14 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 19:08:14 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:08:14 UTC] Expenses::constructor() 
+[15-Jan-2022 19:08:31 UTC] Hello, errors!
+[15-Jan-2022 19:08:31 UTC] SessionController::validateSession()
+[15-Jan-2022 19:08:31 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:08:31 UTC] sessionController::validateSession(): username:kev - role: user
+[15-Jan-2022 19:08:31 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/user, url => user
+[15-Jan-2022 19:08:31 UTC] sessionController::isPublic(): currentURL => user
+[15-Jan-2022 19:08:31 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/user, url => user
+[15-Jan-2022 19:08:31 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 19:08:31 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:08:31 UTC] user kev
+[15-Jan-2022 19:08:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method UserModel::getPhoto() in C:\wamp64\www\incidencias-app\views\user\index.php:21
+Stack trace:
+#0 C:\wamp64\www\incidencias-app\libs\view.php(14): require()
+#1 C:\wamp64\www\incidencias-app\controllers\user.php(17): View->render('user/index', Array)
+#2 C:\wamp64\www\incidencias-app\libs\app.php(58): User->render()
+#3 C:\wamp64\www\incidencias-app\index.php(36): App->__construct()
+#4 {main}
+  thrown in C:\wamp64\www\incidencias-app\views\user\index.php on line 21
+[15-Jan-2022 19:08:32 UTC] Hello, errors!
+[15-Jan-2022 19:08:32 UTC] SessionController::validateSession()
+[15-Jan-2022 19:08:32 UTC] sessionController::getUserSessionData(): kev
+[15-Jan-2022 19:08:32 UTC] sessionController::validateSession(): username:kev - role: user
+[15-Jan-2022 19:08:32 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/logout, url => logout
+[15-Jan-2022 19:08:32 UTC] sessionController::isPublic(): currentURL => logout
+[15-Jan-2022 19:08:32 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/logout, url => logout
+[15-Jan-2022 19:08:32 UTC] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[15-Jan-2022 19:08:32 UTC] Hello, errors!
+[15-Jan-2022 19:08:32 UTC] SessionController::validateSession()
+[15-Jan-2022 19:08:32 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/, url => 
+[15-Jan-2022 19:08:32 UTC] sessionController::isPublic(): currentURL => 
+[15-Jan-2022 19:08:32 UTC] SessionController::validateSession() public page
+[15-Jan-2022 19:08:40 UTC] Hello, errors!
+[15-Jan-2022 19:08:40 UTC] SessionController::validateSession()
+[15-Jan-2022 19:08:40 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/login/authenticate, url => login
+[15-Jan-2022 19:08:40 UTC] sessionController::isPublic(): currentURL => login
+[15-Jan-2022 19:08:40 UTC] SessionController::validateSession() redirect al login
+[15-Jan-2022 19:08:40 UTC] ExistPOST: Existen parámetros
+[15-Jan-2022 19:08:40 UTC] login: inicio
+[15-Jan-2022 19:08:40 UTC] login: user id 9
+[15-Jan-2022 19:08:40 UTC] login: success
+[15-Jan-2022 19:08:40 UTC] Login::authenticate() passed
+[15-Jan-2022 19:08:40 UTC] sessionController::initialize(): user: admin
+[15-Jan-2022 19:08:40 UTC] sessionController::authorizeAccess(): role: admin
+[15-Jan-2022 19:08:40 UTC] Hello, errors!
+[15-Jan-2022 19:08:40 UTC] SessionController::validateSession()
+[15-Jan-2022 19:08:40 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 19:08:40 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 19:08:40 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 19:08:40 UTC] sessionController::isPublic(): currentURL => admin
+[15-Jan-2022 19:08:40 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/admin, url => admin
+[15-Jan-2022 19:08:40 UTC] SessionController::validateSession() => autorizado, lo deja pasar
+[15-Jan-2022 19:08:40 UTC] Admin::RENDER() 
+[15-Jan-2022 19:08:40 UTC] Admin::getIncidencias()
+[15-Jan-2022 19:09:25 UTC] Hello, errors!
+[15-Jan-2022 19:09:25 UTC] SessionController::validateSession()
+[15-Jan-2022 19:09:25 UTC] sessionController::getUserSessionData(): admin
+[15-Jan-2022 19:09:25 UTC] sessionController::validateSession(): username:admin - role: admin
+[15-Jan-2022 19:09:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/logout, url => logout
+[15-Jan-2022 19:09:25 UTC] sessionController::isPublic(): currentURL => logout
+[15-Jan-2022 19:09:25 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/logout, url => logout
+[15-Jan-2022 19:09:25 UTC] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[15-Jan-2022 19:09:25 UTC] Hello, errors!
+[15-Jan-2022 19:09:26 UTC] SessionController::validateSession()
+[15-Jan-2022 19:09:26 UTC] sessionController::getCurrentPage(): actualLink =>/incidencias-app/, url => 
+[15-Jan-2022 19:09:26 UTC] sessionController::isPublic(): currentURL => 
+[15-Jan-2022 19:09:26 UTC] SessionController::validateSession() public page

@@ -1,0 +1,11 @@
+
+#form-expense-container{
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+#form-expense-container .section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
