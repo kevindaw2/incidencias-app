@@ -21,11 +21,6 @@
             "role" : "user"
         },
         {
-            "site" : "expenses", 
-            "access" : "private", 
-            "role" : "user"
-        },
-        {
             "site" : "incidencias", 
             "access" : "private", 
             "role" : "user"

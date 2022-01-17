@@ -1,13 +1,13 @@
 <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/default.css">
 <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/dashboard.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"/>
 
 
 <div id="header">
     <ul>
-        <li><a href="<?php echo constant('URL'); ?>dashboard">Home</a></li>
-        <li><a href="<?php echo constant('URL').'expenses'; ?>">Expenses</a></li>
-        <li><a href="<?php echo constant('URL'); ?>logout">Logout</a></li>
+        <li><a href="<?php echo constant('URL'); ?>dashboard">Inicio</a></li>
+        <li><a href="<?php echo constant('URL'); ?>logout">Cerrar Sesión</a></li>
     </ul>
 
     <div id="profile-container">

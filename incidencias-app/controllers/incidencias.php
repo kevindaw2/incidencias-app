@@ -1,7 +1,7 @@
 
 <?php
 
-class Expenses extends SessionController{
+class Incidencias extends SessionController{
 
     private $user;
 
@@ -15,176 +15,57 @@ class Expenses extends SessionController{
      function render(){
         error_log("Incidencias::RENDER() ");
 
-        $this->view->render('expenses/index', [
+        $this->view->render('incidencias/index', [
             'user' => $this->user,
             'dates' => $this->getDateList()
         ]);
     }
 
-    function newExpense(){
-        error_log('Expenses::newExpense()');
-        if(!$this->existPOST(['fechaInicio', 'fechaFinal', 'material', 'comentario', 'aula', 'hecho', 'prioridad'])){
-            $this->redirect('dashboard', ['error' => Errors::ERROR_EXPENSES_NEWEXPENSE_EMPTY]);
+    function newIncidencia(){
+        error_log('Incidencias::newIncidencia()');
+        if(!$this->existPOST(['fechaInicio', 'material', 'comentario', 'aula', 'prioridad'])){
+            $this->redirect('dashboard', ['error' => Errors::ERROR_INCIDENCIAS_NEWINCIDENCIA_EMPTY]);
             return;
         }
 
         if($this->user == NULL){
-            $this->redirect('dashboard', ['error' => Errors::ERROR_EXPENSES_NEWEXPENSE]);
+            $this->redirect('dashboard', ['error' => Errors::ERROR_INCIDENCIAS_NEWINCIDENCIA]);
             return;
         }
 
-        $expense = new IncidenciasModel();
+        $incidenia = new IncidenciasModel();
 
-        $expense->setUserId($this->user->getId());
-        $expense->setFechaInicio($this->getPost('fechaInicio'));
-        $expense->setFechaFinal($this->getPost('fechaFinal'));
-        $expense->setMaterial($this->getPost('material'));
-        $expense->setComentario($this->getPost('comentario'));
-        $expense->setAula($this->getPost('aula'));
-        $expense->setPrioridad($this->getPost('prioridad')); 
+        $incidenia->setUserId($this->user->getId());
+        $incidenia->setFechaInicio($this->getPost('fechaInicio'));
+        $incidenia->setFechaFinal($this->getPost('fechaFinal'));
+        $incidenia->setMaterial($this->getPost('material'));
+        $incidenia->setComentario($this->getPost('comentario'));
+        $incidenia->setAula($this->getPost('aula'));
+        $incidenia->setPrioridad($this->getPost('prioridad')); 
        
-        $expense->save();
-        $this->redirect('dashboard', ['success' => Success::SUCCESS_EXPENSES_NEWEXPENSE]);
+        $incidenia->save();
+        $this->redirect('dashboard', ['success' => Success::SUCCESS_INCIDENCIAS_NEWINCIDENCIA]);
     }
 
-    // new expense UI
+    // new incidenia UI
     function create(){
-        $categories = new CategoriesModel();
-        $this->view->render('expenses/create', [
-            "categories" => $categories->getAll(),
-            "user" => $this->user
+        $this->view->render('incidencias/create', [
+            "user" => $this->user,
         ]);
     } 
 
-    function getCategoryIds(){
-        $joinExpensesCategoriesModel = new JoinExpensesCategoriesModel();
-        $categories = $joinExpensesCategoriesModel->getAll($this->user->getId());
-
-        $res = [];
-        foreach ($categories as $cat) {
-            array_push($res, $cat->getCategoryId());
-        }
-        $res = array_values(array_unique($res));
-        return $res;
-    }
-
-    // crea una lista con los meses donde hay expenses
-    private function getDateList(){
-        $months = [];
-        $res = [];
-        $joinExpensesCategoriesModel = new JoinExpensesCategoriesModel();
-        $expenses = $joinExpensesCategoriesModel->getAll($this->user->getId());
-
-        foreach ($expenses as $expense) {
-            array_push($months, substr($expense->getDate(),0, 7 ));
-        }
-        $months = array_values(array_unique($months));
-        //mostrar los últimos 3 meses
-        if(count($months) >3){
-            array_push($res, array_pop($months));
-            array_push($res, array_pop($months));
-            array_push($res, array_pop($months));
-        }
-        return $res;
-    }
-
-    // crea una lista con las categorias donde hay expenses
-    private function getCategoryList(){
-        $res = [];
-        $joinExpensesCategoriesModel = new JoinExpensesCategoriesModel();
-        $expenses = $joinExpensesCategoriesModel->getAll($this->user->getId());
-
-        foreach ($expenses as $expense) {
-            array_push($res, $expense->getNameCategory());
-        }
-        $res = array_values(array_unique($res));
-
-        return $res;
-    }
-
-    // crea una lista con los colores dependiendo de las categorias
-    private function getCategoryColorList(){
-        $res = [];
-        $joinExpensesCategoriesModel = new JoinExpensesCategoriesModel();
-        $expenses = $joinExpensesCategoriesModel->getAll($this->user->getId());
-
-        foreach ($expenses as $expense) {
-            array_push($res, $expense->getColor());
-        }
-        $res = array_unique($res);
-        $res = array_values(array_unique($res));
-
-        return $res;
-    }
-
-    
-
-    // devuelve el JSON para las llamadas AJAX
-    function getHistoryJSON(){
-        header('Content-Type: application/json');
-        $res = [];
-        $joinExpensesCategories = new JoinExpensesCategoriesModel();
-        $expenses = $joinExpensesCategories->getAll($this->user->getId());
-
-        foreach ($expenses as $expense) {
-            array_push($res, $expense->toArray());
-        }
-        
-        echo json_encode($res);
-
-    }
-
-    function getExpensesJSON(){
-        header('Content-Type: application/json');
-
-        $res = [];
-        $categoryIds     = $this->getCategoryIds();
-        $categoryNames  = $this->getCategoryList();
-        $categoryColors = $this->getCategoryColorList();
-
-        array_unshift($categoryNames, 'mes');
-        array_unshift($categoryColors, 'categorias');
-        /* array_unshift($categoryNames, 'categorias');
-        array_unshift($categoryColors, NULL); */
-
-        $months = $this->getDateList();
-
-        for($i = 0; $i < count($months); $i++){
-            $item = array($months[$i]);
-            for($j = 0; $j < count($categoryIds); $j++){
-                $total = $this->getTotalByMonthAndCategory( $months[$i], $categoryIds[$j]);
-                array_push( $item, $total );
-            }   
-            array_push($res, $item);
-        }
-
-        array_unshift($res, $categoryNames);
-        array_unshift($res, $categoryColors);
-        
-        echo json_encode($res);
-    }
-
-    function getTotalByMonthAndCategory($date, $categoryid){
-        $iduser = $this->user->getId();
-        $joinExpensesCategoriesModel = new JoinExpensesCategoriesModel();
-
-        $total = $joinExpensesCategoriesModel->getTotalByMonthAndCategory($date, $categoryid, $iduser);
-        if($total == NULL) $total = 0;
-        return $total;
-    }
-
     function delete($params){
-        error_log("Expenses::delete()");
+        error_log("Incidencias::delete()");
         
-        if($params === NULL) $this->redirect('expenses', ['error' => Errors::ERROR_ADMIN_NEWCATEGORY_EXISTS]);
+        if($params === NULL) $this->redirect('incidencias', ['error' => Errors::ERROR_ADMIN_NEWCATEGORY_EXISTS]);
         $id = $params[0];
-        error_log("Expenses::delete() id = " . $id);
+        error_log("Incidencias::delete() id = " . $id);
         $res = $this->model->delete($id);
 
         if($res){
-            $this->redirect('expenses', ['success' => Success::SUCCESS_EXPENSES_DELETE]);
+            $this->redirect('incidencias', ['success' => Success::SUCCESS_INCIDENCIAS_DELETE]);
         }else{
-            $this->redirect('expenses', ['error' => Errors::ERROR_ADMIN_NEWCATEGORY_EXISTS]);
+            $this->redirect('incidencias', ['error' => Errors::ERROR_ADMIN_NEWCATEGORY_EXISTS]);
         }
     }
 

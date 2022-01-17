@@ -100,7 +100,7 @@ class IncidenciasModel extends Model implements IModel{
             $query->execute([ "userId" => $userId]);
 
             while($p = $query->fetch(PDO::FETCH_ASSOC)){
-                $item = new ExpensesModel();
+                $item = new IncidenciasModel();
                 $item->from($p); 
                 
                 array_push($items, $item);
@@ -128,45 +128,6 @@ class IncidenciasModel extends Model implements IModel{
             return $items;
         }catch(PDOException $e){
             return false;
-        }
-    }
-
-    /**
-     * Regresa el monto total de expenses en este mes
-     */
-    function getTotalAmountThisMonth($iduser){
-        try{
-            $year = date('Y');
-            $month = date('m');
-            $query = $this->db->connect()->prepare('SELECT SUM(amount) AS total FROM expenses WHERE YEAR(date) = :year AND MONTH(date) = :month AND id_user = :iduser');
-            $query->execute(['year' => $year, 'month' => $month, 'iduser' => $iduser]);
-
-            $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
-            if($total == NULL) $total = 0;
-            
-            return $total;
-
-        }catch(PDOException $e){
-            return NULL;
-        }
-    }
-    /**
-     * Obtiene el número de transacciones por mes
-     */
-    function getMaxExpensesThisMonth($iduser){
-        try{
-            $year = date('Y');
-            $month = date('m');
-            $query = $this->db->connect()->prepare('SELECT MAX(amount) AS total FROM expenses WHERE YEAR(date) = :year AND MONTH(date) = :month AND id_user = :iduser');
-            $query->execute(['year' => $year, 'month' => $month, 'iduser' => $iduser]);
-
-            $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
-            if($total == NULL) $total = 0;
-            
-            return $total;
-
-        }catch(PDOException $e){
-            return NULL;
         }
     }
 
@@ -209,48 +170,6 @@ class IncidenciasModel extends Model implements IModel{
         $this->comentario = $array['comentario'];
         $this->aula = $array['aula'];
         $this->prioridad = $array['prioridad'];
-    }
-
-    /**
-     * Obtiene el total de amount de expenses basado en id de categoria
-     */
-    function getTotalByCategoryThisMonth($categoryid, $userid){
-        error_log("ExpensesModel::getTotalByCategoryThisMonth");
-        try{
-            $total = 0;
-            $year = date('Y');
-            $month = date('m');
-            $query = $this->prepare('SELECT SUM(amount) AS total from expenses WHERE category_id = :categoryid AND id_user = :userid AND YEAR(date) = :year AND MONTH(date) = :month');
-            $query->execute(['categoryid' => $categoryid, 'userid' => $userid, 'year' => $year, 'month' => $month]);
-            
-            $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
-            if($total == NULL) return 0;
-            return $total;
-
-        }catch(PDOException $e){
-            error_log("**ERROR: ExpensesModel::getTotalByCategoryThisMonth: error: " . $e);
-            return NULL;
-        }
-    }
-
-    /**
-     * Obtiene el total de amount de expenses basado en id de categoria
-     */
-    function getNumberOfExpensesByCategoryThisMonth($categoryid, $userid){
-        try{
-            $total = 0;
-            $year = date('Y');
-            $month = date('m');
-            $query = $this->prepare('SELECT COUNT(id) AS total from expenses WHERE category_id = :categoryid AND id_user = :userid AND YEAR(date) = :year AND MONTH(date) = :month');
-            $query->execute(['categoryid' => $categoryid, 'userid' => $userid, 'year' => $year, 'month' => $month]);
-
-            $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
-            if($total == NULL) return 0;
-            return $total;
-
-        }catch(PDOException $e){
-            return NULL;
-        }
     }
 }
 

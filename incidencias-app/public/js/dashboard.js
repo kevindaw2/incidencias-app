@@ -36,7 +36,7 @@ btnExpense.addEventListener('click', async e =>{
 });
 
 async function getContent(){
-  const html = await fetch('http://localhost/incidencias-app/expenses/create').then(res => res.text());
+  const html = await fetch('http://localhost/incidencias-app/incidencias/create').then(res => res.text());
   return html;
 }
 
@@ -44,7 +44,7 @@ google.charts.load('current', {'packages':['bar']});
       google.charts.setOnLoadCallback(drawChart);
 
       async function drawChart() {
-        const http = await fetch('http://localhost/incidencias-app/expenses/getExpensesJSON')
+        const http = await fetch('http://localhost/incidencias-app/incidencias/getExpensesJSON')
         .then(json => json.json())
         .then(res => res);
 

@@ -1,5 +1,5 @@
 <?php
-    $expenses               = $this->d['expenses'];
+    $incidencias            = $this->d['incidencias'];
     $user                   = $this->d['user'];
 ?>
 <html lang="en">
@@ -24,37 +24,33 @@
                     <div id="chart" >
                     <div class="transactions-container">
                     <section id="expenses-recents">
-                    <h2>Incidencias más recientes</h2>
-                    <?php
-                         if($expenses === NULL){
-                            showError('Error al cargar los datos');
-                        }else if(count($expenses) == 0){
-                            showInfo('No hay transacciones');
-                        }else{
-                            foreach ($expenses as $expense) { ?>
-                            <div class='preview-expense'>
-                                <div class="left">
-                                    <div class="inidencias-comentario">Comentario: <?php echo $expense->getComentario(); ?></div>
-                                    <div class="incidencias-comentario-admin">Comentario admin: </div>
-                                    <div class="incidencias-material">Material: <?php echo $expense->getMaterial(); ?></div>
-                                    <div class="incidencias-prioridad">Prioridad: <?php echo $expense->getPrioridad(); ?></div>
-                                    <div class="expense-date">Aula: <?php echo $expense->getAula(); ?></div>                                </div>
-                                <div class="right">
-                                    <div class="expense-amount">
-                                        <div class="incidencias-inicio">
-                                            Fecha Inicio:  <?php echo $expense->getFechaInicio(); ?>
-                                        </div>
-                                        <div class="incidencias-final">
-                                            Fecha Final:  <?php echo $expense->getFechaFinal(); ?>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <?php
-                            }
-                        } 
-                     ?>
+                        <h2>Incidencias más recientes</h2>
                     </section>
+                    <table id="incidenciasTable">
+                        <thead>
+                        <th>Fecha Petición</th>
+                        <th>Comentario</th>
+                        <th>Aula</th>
+                        <th>Material</th>
+                        <th>Prioridad</th>
+                    </thead>
+                    <tbody>
+                        <?php 
+                            if(!empty($incidencias)) { ?>
+                            <?php foreach($incidencias as $incidencia) { ?>
+                                <tr>
+                                    <td><?php echo $incidencia->getFechaInicio(); ?></td>
+                                    <td><?php echo $incidencia->getComentario(); ?></td>
+                                    <td><?php echo $incidencia->getAula(); ?></td>
+                                    <td><?php echo $incidencia->getMaterial(); ?></td>
+                                    <td><?php echo $incidencia->getPrioridad(); ?></td>
+                                </tr>
+                            <?php } ?>
+                        <?php } else {
+                            showError('Error al cargar los datos');
+                        } ?>
+                    </tbody>
+                    </table>
                 </div>
                     </div>
                 </div>
@@ -63,13 +59,12 @@
             <div id="right-container">
                 <div id="chart-container" >
                     <div id="chart" >
+                        <h2>Añadir Incidencias</h2>
                         <div class="transactions-container">
                         <section class="operations-container">
-                        <h2>Incidencias</h2>  
-                        
                         <button class="btn-main" id="new-expense">
                             <i class="material-icons">add</i>
-                            <span>Añadir nueva incidencia</span>
+                            <span>Añadir</span>
                         </button>
                         </section>
                     </div>
@@ -81,6 +76,13 @@
     </div>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="public/js/dashboard.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#incidenciasTable').DataTable();
+        });
+    </script>
     
 </body>
 </html>
