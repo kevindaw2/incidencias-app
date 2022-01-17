@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 16-01-2022 a las 13:54:54
--- Versión del servidor: 5.7.36
--- Versión de PHP: 7.4.26
+-- Tiempo de generación: 17-01-2022 a las 15:20:50
+-- Versión del servidor: 5.7.31
+-- Versión de PHP: 7.3.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,30 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `incidenciasapp`
 --
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `categories`
---
-
-DROP TABLE IF EXISTS `categories`;
-CREATE TABLE IF NOT EXISTS `categories` (
-  `id` int(5) NOT NULL,
-  `name` varchar(100) NOT NULL,
-  `color` varchar(7) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `categories`
---
-
-INSERT INTO `categories` (`id`, `name`, `color`) VALUES
-(1, 'comida', '#DE1F59'),
-(2, 'hogar', '#DE1FAA'),
-(3, 'ropa', '#B01FDE'),
-(4, 'Juegos', '#681FDE'),
-(5, 'Viajes', '#1FAADE');
 
 -- --------------------------------------------------------
 
@@ -63,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `incidencias` (
   `prioridad` varchar(20) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `id_user_incidencias` (`userId`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `incidencias`
@@ -73,7 +49,12 @@ INSERT INTO `incidencias` (`id`, `userId`, `fechaInicio`, `fechaFinal`, `materia
 (1, 8, '2022-01-10', '2022-01-11', 'raton', 'raton inservible ', 221, 'Alta'),
 (2, 8, '2022-01-02', '2022-01-03', 'silla', 'Silla rota', 222, 'Alta'),
 (3, 8, '2022-01-05', NULL, 'pantalla', 'pantalla no da imagen', 221, 'Baja'),
-(4, 8, '2021-12-27', NULL, 'Pizarra', 'pizarra electrica no funciona', 201, 'Media');
+(4, 8, '2021-12-27', NULL, 'Pizarra', 'pizarra electrica no funciona', 201, 'Media'),
+(5, 8, '2022-01-18', NULL, 'Altavoces', 'El R no funciona', 222, 'Baja'),
+(6, 8, '2021-12-27', NULL, 'Teclado', 'Faltan teclas', 212, 'Baja'),
+(7, 8, '2021-12-27', NULL, 'Ventana', 'No cierra correctamente', 201, 'Media'),
+(8, 8, '2021-12-27', NULL, 'Pizzarra', 'No quedan rotulador ', 200, 'Baja'),
+(10, 8, '2022-01-03', NULL, 'Silla defectuosa', 'No funciona', 222, 'Baja');
 
 -- --------------------------------------------------------
 
