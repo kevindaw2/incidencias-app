@@ -8,9 +8,9 @@ class Errors{
     
     //const ERROR_ADMIN_NEWCATEGORY_EXISTS = "El nombre de la categoría ya existe, intenta otra";
     const ERROR_ADMIN_NEWCATEGORY_EXISTS        = "1f8f0ae8963b16403c3ec9ebb851f156";
-    const ERROR_EXPENSES_DELETE                 = "8f48a0845b4f8704cb7e8b00d4981233";
-    const ERROR_EXPENSES_NEWEXPENSE             = "8f48a0845b4f8704cb7e8b00d4981233";
-    const ERROR_EXPENSES_NEWEXPENSE_EMPTY       = "a5bcd7089d83f45e17e989fbc86003ed";
+    const ERROR_INCIDENCIAS_DELETE                 = "8f48a0845b4f8704cb7e8b00d4981233";
+    const ERROR_INCIDENCIAS_NEWINCIDENCIA             = "8f48a0845b4f8704cb7e8b00d4981233";
+    const ERROR_INCIDENCIAS_NEWINCIDENCIA_EMPTY = "a5bcd7089d83f45e17e989fbc86003ed";
     const ERROR_USER_UPDATEBUDGET               = "e99ab11bbeec9f63fb16f46133de85ec";
     const ERROR_USER_UPDATEBUDGET_EMPTY         = "807f75bf7acec5aa86993423b6841407";
     const ERROR_USER_UPDATENAME_EMPTY           = "0f0735f8603324a7bca482debdf088fa";
@@ -34,11 +34,9 @@ class Errors{
     {
         $this->errorsList = [
             Errors::ERROR_ADMIN_NEWCATEGORY_EXISTS => 'El nombre de la categoría ya existe, intenta otra',
-            Errors::ERROR_EXPENSES_DELETE           => 'Hubo un problema el eliminar el gasto, inténtalo de nuevo',
-            Errors::ERROR_EXPENSES_NEWEXPENSE       => 'Hubo un problema al crear el gasto, inténtalo de nuevo',
-            Errors::ERROR_EXPENSES_NEWEXPENSE_EMPTY => 'Los campos no pueden estar vacíos',
-            Errors::ERROR_USER_UPDATEBUDGET         => 'No se puede actualizar el presupuesto',
-            Errors::ERROR_USER_UPDATEBUDGET_EMPTY   => 'El presupuesto no puede estar vacio o ser negativo',
+            Errors::ERROR_INCIDENCIAS_DELETE           => 'Hubo un problema al eliminar la incidencia, inténtalo de nuevo',
+            Errors::ERROR_INCIDENCIAS_NEWINCIDENCIA       => 'Hubo un problema al eliminar la incidencia, inténtalo de nuevo',
+            Errors::ERROR_INCIDENCIAS_NEWINCIDENCIA_EMPTY => 'Los campos no pueden estar vacíos',
             Errors::ERROR_USER_UPDATENAME_EMPTY     => 'El nombre no puede estar vacio o ser negativo',
             Errors::ERROR_USER_UPDATENAME           => 'No se puede actualizar el nombre',
             Errors::ERROR_USER_UPDATEPASSWORD       => 'No se puede actualizar la contraseña',

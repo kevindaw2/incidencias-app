@@ -1,14 +1,10 @@
 <?php
 
 class Success{
-    //ERROR|SUCCESS
-    //Controller
-    //method
-    //operation
-    
+
     const SUCCESS_ADMIN_NEWCATEGORY     = "f52228665c4f14c8695b194f670b0ef1";
-    const SUCCESS_EXPENSES_DELETE       = "fcd919285d5759328b143801573ec47d";
-    const SUCCESS_EXPENSES_NEWEXPENSE   = "fbbd0f23184e820e1df466abe6102955";
+    const SUCCESS_INCIDENCIAS_DELETE       = "fcd919285d5759328b143801573ec47d";
+    const SUCCESS_INCIDENCIAS_NEWINCIDENCIA   = "fbbd0f23184e820e1df466abe6102955";
     const SUCCESS_USER_UPDATEBUDGET     = "2ee085ac8828407f4908e4d134195e5c";
     const SUCCESS_USER_UPDATENAME       = "6fb34a5e4118fb823636ca24a1d21669";
     const SUCCESS_USER_UPDATEPASSWORD       = "6fb34a5e4118fb823636ca24a1d21669";
@@ -20,9 +16,9 @@ class Success{
     public function __construct()
     {
         $this->successList = [
-            Success::SUCCESS_ADMIN_NEWCATEGORY => "Nueva categoría creada correctamente",
-            Success::SUCCESS_EXPENSES_DELETE => "Gasto eliminado correctamente",
-            Success::SUCCESS_EXPENSES_NEWEXPENSE => "Nuevo gasto registrado correctamente",
+            Success::SUCCESS_ADMIN_NEWCATEGORY => "Nueva incidencia creada correctamente",
+            Success::SUCCESS_INCIDENCIAS_DELETE => "Incidencia eliminada correctamente",
+            Success::SUCCESS_INCIDENCIAS_NEWINCIDENCIA => "Nuevo incidencia registrada correctamente",
             Success::SUCCESS_USER_UPDATEBUDGET => "Presupuesto actualizado correctamente",
             Success::SUCCESS_USER_UPDATENAME => "Nombre actualizado correctamente",
             Success::SUCCESS_USER_UPDATEPASSWORD => "Contraseña actualizado correctamente",
